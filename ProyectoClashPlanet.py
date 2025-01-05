@@ -697,17 +697,17 @@ tierra = Tierra(400,500, "tierra.png",vida=100,daño_base=10,level=1,nombre="tie
 enemys = [
     Enemy(400, 150, "mercurio.png", vida=50, daño_base=8, level=1, nombre="mercurio", Move=[ataque_rapido]),
     
-    Enemy(400, 150, "venus.png", vida=70, daño_base=10, level=2, nombre="venus", Move=[defensa_termica]),
+    Enemy(400, 150, "venus.png", vida=90, daño_base=10, level=2, nombre="venus", Move=[defensa_termica]),
     
-    Enemy(400, 150, "marte.png", vida=90, daño_base=10, level=3, nombre="marte", Move=[tormenta_polvo]),
+    Enemy(400, 150, "marte.png", vida=70, daño_base=10, level=3, nombre="marte", Move=[tormenta_polvo]),
     
-    Enemy(400, 150, "jupiter.png", vida=95, daño_base=12, level=4, nombre="jupiter", Move=[gravedad_aumentada]),
+    Enemy(400, 150, "jupiter.png", vida=105, daño_base=12, level=4, nombre="jupiter", Move=[gravedad_aumentada]),
     
-    Enemy(400, 150, "saturno.png", vida=105, daño_base=15, level=5, nombre="saturno", Move=[anillos_defensas]),
+    Enemy(400, 150, "saturno.png", vida=100, daño_base=15, level=5, nombre="saturno", Move=[anillos_defensas]),
     
-    Enemy(400, 150, "urano.png", vida=100, daño_base=15, level=6, nombre="urano", Move=[viento_solar]),
+    Enemy(400, 150, "urano.png", vida=95, daño_base=15, level=6, nombre="urano", Move=[viento_solar]),
     
-    Enemy(400, 150, "neptuno.png", vida=95, daño_base=15, level=7, nombre="neptuno", Move=[tormenta_neptuno]),
+    Enemy(400, 150, "neptuno.png", vida=93, daño_base=15, level=7, nombre="neptuno", Move=[tormenta_neptuno]),
     
     Enemy(400, 150, "sol.png", vida=115, daño_base=30, level=8, nombre="sol", Move=[tormenta_neptuno]),
 ]
