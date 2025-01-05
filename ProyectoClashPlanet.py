@@ -132,7 +132,7 @@ def rendertexttype(text, pos, delay):
 def mostrar_intro():
     musica("Ruins.mp3")
     tiempo_inicio = pygame.time.get_ticks()  # Captura el tiempo inicial
-    duracion_intro = 20000 # Duración de la introducción en milisegundos (5000 ms = 5 segundos)
+    duracion_intro = 25000 # Duración de la introducción en milisegundos (5000 ms = 5 segundos)
     
     # Para correr la pantalla
     run = True
@@ -682,11 +682,11 @@ movimientos = [golpe_terrestre,rafaga_piedra, golpe_mar, golpe_contaminacion]
 
 # Se definen las habilidades:
 # Crear habilidades como movimientos
-ataque_rapido = Move("Ataque Rápido", 15, ataq_habilidad)
-defensa_termica = Move("Defensa Térmica", 20, ataq_habilidad)  
-tormenta_polvo = Move("Tormenta de Polvo", 23, ataq_habilidad)
-gravedad_aumentada = Move("Gravedad Aumentada", 25, ataq_habilidad)
-anillos_defensas = Move("Anillos Defensivos", 30, ataq_habilidad)
+ataque_rapido = Move("Ataque Rápido", 20, ataq_habilidad)
+defensa_termica = Move("Defensa Térmica", 15, ataq_habilidad)  
+tormenta_polvo = Move("Tormenta de Polvo", 30, ataq_habilidad)
+gravedad_aumentada = Move("Gravedad Aumentada", 15, ataq_habilidad)
+anillos_defensas = Move("Anillos Defensivos", 20, ataq_habilidad)
 viento_solar = Move("Viento Solar", 35, ataq_habilidad)
 tormenta_neptuno = Move("Tormenta de Neptuno", 40, ataq_habilidad)
 #-------------------------------------------------------------------
